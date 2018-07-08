@@ -5,3 +5,9 @@ require_relative '../config/environment'
 puts "Welcome to Tic Tac Toe"
 puts "Select number of players"
 number = gets.to_i
+if number == 0
+  player_1 = Players::Computer.new("X")
+  player_2 = Players::Computer.new("O")
+elsif number == 1
+  player_2 = Players::Computer.new("O")
+  
