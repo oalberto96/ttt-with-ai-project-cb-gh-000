@@ -73,6 +73,7 @@ class Game
     until over?
       self.turn
       @board.display
+      puts "\n\n"
     end
     player = winner
     puts player != nil ?  "Congratulations #{player}!" : "Cat's Game!"
