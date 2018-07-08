@@ -12,6 +12,7 @@ if number == 0
 elsif number == 1
   player_1 = Players::Computer.new("O")
   game = Game.new(player_1)
+else
+  game = Game.new(player_1, player_2)
 end
-game = Game.new(player_1, player_2)
 game.play
