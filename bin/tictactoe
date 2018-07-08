@@ -13,6 +13,6 @@ elsif number == 1
   player_1 = Players::Computer.new("X")
   game = Game.new(player_1)
 else
-  game = Game.new(player_1, player_2)
+  game = Game.new
 end
 game.play
