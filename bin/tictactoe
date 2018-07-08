@@ -10,7 +10,7 @@ if number == 0
   player_2 = Players::Computer.new("O")
   game = Game.new(player_1, player_2)
 elsif number == 1
-  player_1 = Players::Computer.new("O")
+  player_1 = Players::Computer.new("X")
   game = Game.new(player_1)
 else
   game = Game.new(player_1, player_2)
