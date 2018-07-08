@@ -11,3 +11,4 @@ if number == 0
 elsif number == 1
   player_2 = Players::Computer.new("O")
 end
+Game.new(player_1, player_2)
